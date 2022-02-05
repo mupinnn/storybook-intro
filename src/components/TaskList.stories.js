@@ -1,9 +1,9 @@
-import TaskList from "./TaskList";
+import { PureTaskList } from "./TaskList";
 import * as TaskStories from "./Task.stories";
 
 export default {
-  component: TaskList,
-  title: "TaskList",
+  component: PureTaskList,
+  title: "PureTaskList",
 
   /**
    * `decorators` adalah sebuah cara untuk membungkus `stories` ke dalam
@@ -16,7 +16,7 @@ export default {
   decorators: [(story) => <div style={{ padding: "3rem" }}>{story()}</div>],
 };
 
-const Template = (args) => <TaskList {...args} />;
+const Template = (args) => <PureTaskList {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
