@@ -8,7 +8,7 @@ const defaultTasks = [
 ];
 
 const TasksSlices = createSlice({
-  name: "Tasks",
+  name: "tasks",
   initialState: defaultTasks,
   reducers: {
     updateTaskState: (state, action) => {
