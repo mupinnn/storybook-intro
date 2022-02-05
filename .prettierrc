@@ -1,0 +1,15 @@
+{
+  "arrowParens": "always",
+  "tabWidth": 2,
+  "endOfLine": "lf",
+  "quoteProps": "preserve",
+  "trailingComma": "es5",
+  "overrides": [
+    {
+      "files": "src/**/*.{css,scss}",
+      "options": {
+        "singleQuote": true
+      }
+    }
+  ]
+}
